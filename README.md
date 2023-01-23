@@ -9,7 +9,7 @@
 4.  Navigate to codes Folder and Copy the code from codes/script.txt and paste it here 
                 
                 i.      Modify the script as per requirement.
-                ii.     Enter google sheet ID from the url 
+                ii.     Enter google sheet ID from the url (In the url https://docs.google.com/spreadsheets/d/1HmAt-XYZPdbXcZaNz-E5_cYHCfFtOL9dNTZjzSKqHDQ/edit#gid=0  only 1HmAt-XYZPdbXcZaNz-E5_cYHCfFtOL9dNTZjzSKqHDQ is google sheet ID. )
                 iii.    Enter google sheet Name.
                 iv.     Deploy the code and give nessary permissions.
                 v.      After Deployment we can see a google script url and google script ID.Make a note of this for editing purpose in later steps.
