@@ -23,14 +23,14 @@ void wifi_init()
    // ESP.restart();
   }
 }
-
+/*
 void Buzzer()
 {
   tone(buzzer, 1000); // Send 1KHz sound signal...
   delay(400);        
   noTone(buzzer);     // Stop sound...
   
-}
+} */
 
 int getFingerprintIDez() {
   uint8_t p = finger.getImage();
@@ -91,7 +91,7 @@ void loop()
     String urlFinal = "https://script.google.com/macros/s/"+GOOGLE_SCRIPT_ID+"/exec?"+ "&sensor=" + fp;
     Serial.print("POST data to spreadsheet:");
     Serial.println(urlFinal);
-    Buzzer();
+    // Buzzer();
     HTTPClient http;
     http.begin(urlFinal.c_str());
     http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
