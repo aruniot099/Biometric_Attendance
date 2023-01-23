@@ -28,5 +28,5 @@ Ubuntu OS:
 
 9.  upload the bin file on Esp32  using : pio run -t nobuild -t upload (or) sudo pio run -t nobuild -t upload
 
-10.  Connect the circuit as per the codes/pin_connection.xls.
+10.  Connect the circuit as per the codes/pin_connection.xlsx.
 
