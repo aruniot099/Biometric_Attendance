@@ -20,15 +20,17 @@
                  
 Ubuntu OS:
 
-5.  Install PLatformio  on Terminal using  pip3 install platformio
+5.  Connect the circuit as per the codes/pin_connection.xlsx.
 
-6.  Navigate to codes folder and edit src/main.cpp 
+6.  Install PLatformio  on Terminal using  pip3 install platformio
 
-7.  Edit  WIFI crentials and google scripts as per the requirment.
+7.  Navigate to codes folder and edit src/main.cpp 
 
-8.  Generate bin file using : pio run (or) sudo pio run
+8.  Edit  WIFI crentials and google scripts as per the requirment.
 
-9.  upload the bin file on Esp32  using : pio run -t nobuild -t upload (or) sudo pio run -t nobuild -t upload
+9.  Generate bin file using : pio run (or) sudo pio run
 
-10.  Connect the circuit as per the codes/pin_connection.xlsx.
+10.  upload the bin file on Esp32  using : pio run -t nobuild -t upload (or) sudo pio run -t nobuild -t upload
+
+10.  
 
