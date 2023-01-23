@@ -1,6 +1,6 @@
 # Biometric_Attendance
 
-1.  Download Codes from svn co https://github.com/Sekharjala/Biometric_Attendance
+1.  Download Codes from svn co https://github.com/Sekharjala/Biometric_Attendance/trunk/codes
 
 2.  Create a google sheet using a gmail account.
 
