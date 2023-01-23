@@ -1,6 +1,18 @@
+
+
 # Biometric_Attendance
 
 1.  Download Codes from svn co https://github.com/Sekharjala/Biometric_Attendance/trunk/codes
+ 
+ # Registrations     
+      
+      i. Register Fingre Prints of Users by connecting the circuit as per pin_connections.xlsx flash the codes/Registrations_FingerPrints.
+      ii.Connect the circuit as per the  codes/pin_connection.xlsx.
+          *   Install PLatformio  on Terminal using  pip3 install platformio
+          **  Flash Esp32 With  codes/Registrations_FingerPrints using (pio run and pio run -t upload).
+         
+
+      
 
 2.  Create a google sheet using a gmail account.
 
@@ -18,7 +30,7 @@
  
  
                  
-Ubuntu OS:
+# Attendance :
 
 5.  Connect the circuit as per the codes/pin_connection.xlsx.
 
@@ -32,5 +44,5 @@ Ubuntu OS:
 
 10.  upload the bin file on Esp32  using : pio run -t nobuild -t upload (or) sudo pio run -t nobuild -t upload
 
-10.  
+
 
