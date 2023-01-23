@@ -4,16 +4,12 @@
 #include <HardwareSerial.h>
 #include "WiFi.h"
 #include <HTTPClient.h>
-const char* ssid = "IITH-Guest-PWD-IITH@2022";         // change SSID
-const char* password = "IITH@2022";    // change password
+const char* ssid = "wifi username";         // change SSID
+const char* password = "wifi password";    // change password
 const int buzzer = 19;
 // Google script ID and required credentials
-// https://script.google.com/macros/s/AKfycbypn21FYqH8WCA36dKI-w3c_GCn-9aNRku1JbsW55I77EX3LEIDREHgcPof0DptEuKT/exec
-//https://script.google.com/macros/s/AKfycbwAV85c1KkQ0eXvcJEekNSppgUFi--MvRZ3xaN8iu6OuKrwwW0wXSUNENzmO4ylbTiO/exec
 
-// For Fwc B423 Aug Batch ....
-
-String GOOGLE_SCRIPT_ID = "AKfycbwAV85c1KkQ0eXvcJEekNSppgUFi--MvRZ3xaN8iu6OuKrwwW0wXSUNENzmO4ylbTiO";    // change Gscript ID
+String GOOGLE_SCRIPT_ID = " script id here !";    // change Gscript ID
 
 HardwareSerial hw(2);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&hw);
@@ -58,7 +54,7 @@ void setup()
 {
 	pinMode(buzzer, OUTPUT);
    	Serial.begin(9600);
-   	while (!Serial);  // For Yun/Leo/Micro/Zero/...
+   	while (!Serial); 
    	delay(100);
    	Serial.println("\n\nAdafruit finger detect test");
 
