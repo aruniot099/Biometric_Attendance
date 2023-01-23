@@ -12,7 +12,9 @@
                 ii.     Enter google sheet ID from the url (In the url https://docs.google.com/spreadsheets/d/1HmAt-XYZPdbXcZaNz-E5_cYHCfFtOL9dNTZjzSKqHDQ/edit#gid=0  only 1HmAt-XYZPdbXcZaNz-E5_cYHCfFtOL9dNTZjzSKqHDQ is google sheet ID. )
                 iii.    Enter google sheet Name.
                 iv.     Deploy the code and give nessary permissions.(Deploy--> New Deployment -->(selecttype-->)Web App-->Deploy)
-                v.      After Deployment we can see a google script url and google script ID.Make a note of this for editing purpose in later steps.
+                v.      Authorize Acess and allow gmail permission.
+                vi.     After Deployment we can see a google script url and Deployment ID.Make a note of this for editing purpose in later steps.
+                vii.    copy Deployment ID and assign  it to google script id in codes/Biometric_attendance/src/main.cpp.
  
  
                  
