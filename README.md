@@ -10,6 +10,7 @@
       ii.Connect the circuit as per the  codes/pin_connection.xlsx.
           *   Install PLatformio  on Terminal using  pip3 install platformio
           **  Flash Esp32 With  codes/Registrations_FingerPrints using (pio run and pio run -t upload).
+      iii.using serial monitor store the fingre prints by giving a specific address from 3 to 1000. (As R307 can support 997 Fingre Prints)
          
 
       
@@ -30,7 +31,7 @@
  
  
                  
-# Attendance :
+# Attendance monitoring:
 
 5.  Connect the circuit as per the codes/pin_connection.xlsx.
 
