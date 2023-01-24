@@ -13,7 +13,7 @@
          
 
       
-
+# Making Google Sheet to Observe Data
 2.  Create a google sheet using a gmail account.
 
 3.  In the google sheet go to Extentions --> Apps Script
