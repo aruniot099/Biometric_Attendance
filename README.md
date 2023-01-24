@@ -9,8 +9,8 @@
       i. Register Fingre Prints of Users by connecting the circuit as per pin_connections.xlsx flash the codes/Registrations_FingerPrints.
       ii.Connect the circuit as per the  codes/pin_connection.xlsx.
           *   Install PLatformio  on Terminal using  pip3 install platformio
-          **  Flash Esp32 With  codes/Registrations_FingerPrints using (pio run and pio run -t upload).
-      iii.using serial monitor store the fingre prints by giving a specific address from 3 to 1000. (As R307 can support 997 Fingre Prints)
+          **  Flash Esp32 With  codes/Registrations_FingrePrints using (pio run and pio run -t upload).
+      iii.using serial monitor store the fingre prints by giving a specific address from 3 to 1000. (As R307 can support 997 Fingre Prints).
          
 
       
@@ -33,11 +33,11 @@
                  
 # Attendance monitoring:
 
-5.  Connect the circuit as per the codes/pin_connection.xlsx.
+5.  Install PLatformio  on Terminal using  pip3 install platformio (if not installed)
 
-6.  Install PLatformio  on Terminal using  pip3 install platformio
+6.  Connect the circuit as per the codes/pin_connection.xlsx.
 
-7.  Navigate to codes folder and edit src/main.cpp 
+7.  Navigate to codes/Biometric_Attendance_system folder and edit src/main.cpp 
 
 8.  Edit  WIFI crentials and google scripts as per the requirment.
 
