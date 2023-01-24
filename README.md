@@ -45,5 +45,9 @@
 
 10.  upload the bin file on Esp32  using : pio run -t nobuild -t upload (or) sudo pio run -t nobuild -t upload
 
+11.  Buzzer is a choice if needed interface buzzer +ve  to GPIO19 pin and GND to GND of ESP32.(buzzer beeps when a Registerd finger Print is Identified).
+
+12. LCD is one more option to display a message. Make nessary changes to the Code and interface an LCD.
+
 
 
