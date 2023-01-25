@@ -6,7 +6,7 @@
  
  # Registrations     
       
-      i. Register Fingre Prints of Users by connecting the circuit as per pin_connections.xlsx flash the codes/Registrations_FingerPrints.
+      i. Register Fingre Prints of Users by connecting the circuit as per pin_connections.xlsx
       ii.Connect the circuit as per the  codes/pin_connection.xlsx.
           *   Install PLatformio  on Terminal using  pip3 install platformio
           **  Flash Esp32 With  codes/Registrations_FingrePrints using (pio run and pio run -t upload).
