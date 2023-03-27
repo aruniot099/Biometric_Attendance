@@ -27,8 +27,8 @@
                 iv.     Deploy the code and give nessary permissions.(Deploy--> New Deployment -->(selecttype-->)Web App-->Deploy)
                 v.      Authorize Acess and allow gmail permission.
                 vi.     Now in the provided menu give permission who has access to - Anyone
-                vii.     After Deployment we can see a google script url and Deployment ID.Make a note of this for editing purpose in later steps.
-                viii.    copy Deployment ID and assign  it to google script id in codes/Biometric_attendance/src/main.cpp.
+                vii.    After Deployment we can see a google script url and Deployment ID.Make a note of this for editing purpose in later steps.
+                viii.   Copy Deployment ID and assign  it to google script id in codes/Biometric_attendance/src/main.cpp.
  
  
                  
