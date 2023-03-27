@@ -3,12 +3,12 @@
 #include <HardwareSerial.h>
 #include "WiFi.h"
 #include <HTTPClient.h>
-const char* ssid = "wifi username";         // change SSID
-const char* password = "wifi password";    // change password
-const int buzzer = 19;
+const char* ssid = "TP-Link_Guest_EFDC";         // change SSID
+const char* password = "Fwciith@2022";    // change password
+const int led = 19;
 // Google script ID and required credentials
 
-String GOOGLE_SCRIPT_ID = " script id here !";    // change Gscript ID
+String GOOGLE_SCRIPT_ID = "AKfycbymfH2bosts6xmLMhBzPlJeQC7NgHLr2FQ_IsDiHnRNe3YFpjtDjf9Y1R5jWtszYQb3Ug";    // change Gscript ID
 
 HardwareSerial hw(2);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&hw);
@@ -23,14 +23,14 @@ void wifi_init()
    // ESP.restart();
   }
 }
-/*
+
 void Buzzer()
 {
-  tone(buzzer, 1000); // Send 1KHz sound signal...
-  delay(400);        
-  noTone(buzzer);     // Stop sound...
+  digitalWrite(led, HIGH);
+  delay(3000);        
+  digitalWrite(led, LOW);   
   
-} */
+}
 
 int getFingerprintIDez() {
   uint8_t p = finger.getImage();
@@ -51,7 +51,7 @@ int getFingerprintIDez() {
 
 void setup()
 {
-	pinMode(buzzer, OUTPUT);
+	pinMode(led, OUTPUT);
    	Serial.begin(9600);
    	while (!Serial); 
    	delay(100);
@@ -91,7 +91,7 @@ void loop()
     String urlFinal = "https://script.google.com/macros/s/"+GOOGLE_SCRIPT_ID+"/exec?"+ "&sensor=" + fp;
     Serial.print("POST data to spreadsheet:");
     Serial.println(urlFinal);
-    // Buzzer();
+    Buzzer();
     HTTPClient http;
     http.begin(urlFinal.c_str());
     http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
@@ -110,4 +110,5 @@ void loop()
     //---------------------------------------------------------------------
    
  http.end();
+  }
   }
